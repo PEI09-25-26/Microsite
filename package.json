@@ -12,7 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "dev": "nodemon --watch docusaurus.config.js --watch sidebars.js --exec \"npm start\""
   },
   "dependencies": {
     "@docusaurus/core": "3.9.1",
@@ -21,12 +22,14 @@
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
+    "react-chrono": "^2.9.1",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.9.1",
     "@docusaurus/tsconfig": "3.9.1",
     "@docusaurus/types": "3.9.1",
+    "nodemon": "^3.1.10",
     "typescript": "~5.6.2"
   },
   "browserslist": {
