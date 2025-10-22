@@ -87,7 +87,16 @@ const config: Config = {
           position: 'left',
           label: 'Milestones',
         },
-        {to: '/Calendar', label: 'Calendar', position: 'left'},
+        {
+          to: '/Calendar', 
+          label: 'Calendar', 
+          position: 'left'
+        },
+        {
+          to: '/Weeks', 
+          label: 'Weeks', 
+          position: 'left'
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
