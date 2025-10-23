@@ -1,5 +1,8 @@
 ---
+id: Weeks
 title: Weeks
+sidebar_label: Weeks
+sidebar_position: 1
 ---
 
 # Weeks

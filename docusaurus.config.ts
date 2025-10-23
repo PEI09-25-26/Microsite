@@ -88,13 +88,14 @@ const config: Config = {
           label: 'Milestones',
         },
         {
-          to: '/Calendar', 
-          label: 'Calendar', 
+          type: 'docSidebar',
+          sidebarId: 'Weeks_Sidebar', 
+          label: 'Weeks', 
           position: 'left'
         },
         {
-          to: '/Weeks', 
-          label: 'Weeks', 
+          to: '/Calendar', 
+          label: 'Calendar', 
           position: 'left'
         },
         {
@@ -112,7 +113,7 @@ const config: Config = {
           items: [
             {
               label: 'Milestones',
-              to: '/docs/intro',
+              to: '/docs/category/Milestones',
             },
           ],
         },
@@ -131,6 +132,11 @@ const config: Config = {
               label: 'Cátia Lopes',
               href: 'https://github.com/catialopesua',
             },
+          ]
+        },
+        {
+          title: 'Developers',
+          items: [
             {
               label: 'Lucas Ruivo',
               href: 'https://github.com/lucasruivo',
@@ -149,17 +155,13 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2025 Suecada, Universidade de Aveiro LEI.`,
     },
     prism: {
       theme: prismThemes.github,
