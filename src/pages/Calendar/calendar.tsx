@@ -3,77 +3,97 @@ import './Cronogram.css';
 
 const timelineData = [
   {
-    title: "Inception - Jan 2025 / Feb 2025",
+    title: "Inception - 16/9/25 -> 14/10/25",
     cards: [
       {
-        title: "Things",
-        subtitle: "A lot of things",
-        description: "First phase focusing on initial planning and requirements"
+        title: "Escolha do projeto - 16/9/25 -> 23/9/25",
+        subtitle: "",
+        description: ""
       },
       {
-        title: "Requirements Gathering",
-        subtitle: "Collect user and system requirements",
-        description: "Detailed analysis of user needs and system specifications"
+        title: "Primeiros passos - 23/9/25 -> 7/10/25",
+        subtitle: "Identificação de problemas e objetivos",
+        description: " Brainstorming de ideias iniciais e definição de equipas"
       },
       {
-        title: "Initial Planning",
-        subtitle: "Project scope and objectives",
-        description: "Define project goals and deliverables"
+        title: "Análise de competidores - 30/9/25 -> 14/10/25",
+        subtitle: "Pesquisa de mercado",
+        description: "Avaliação de soluções existentes e identificação de lacunas"
+      },
+    ]
+  },
+  {
+    title: "Elaboration - 7/10/25 -> 11/11/25",
+    cards: [
+      {
+        title: "Teste de tecnologias - 7/10/25 -> 28/10/25",
+        subtitle: "Exploração de ferramentas e frameworks",
+        description: "Avaliação de tecnologias adequadas para o projeto"
       },
       {
-        title: "Team Formation",
-        subtitle: "Assemble project team",
-        description: "Identify and assign team members to roles"
+        title: "Escolha e validação de arquitetura - 28/10/25 -> 11/11/25",
+        subtitle: "Definição da estrutura do sistema",
+        description: "Decisão sobre padrões arquiteturais e validação com stakeholders"
+      },
+      {
+        title: "Definição de user cases, personas e requisitos - 28/10/25 -> 11/11/25",
+        subtitle: "Compreensão das necessidades do usuário",
+        description: "Criação de user stories e especificação de requisitos funcionais e não funcionais"
       }
     ]
   },
   {
-    title: "Elaboration - Feb 2025 / Mar 2025",
+    title: "Construction - 4/11/25 -> ...",
     cards: [
       {
-        title: "Things",
-        subtitle: "A lot of things",
-        description: "Second phase focusing on detailed design and architecture"
+        title: "Desenvolvimento MVP - 4/11/25 -> ...",
+        subtitle: "Início da produção do produto mínimo viável",
+        description: "Foco nas funcionalidades essenciais"
+      },
+      {
+        title: "Protótipo distribuído - 4/11/25 -> 25/11/25",
+        subtitle: "Primeira versão funcional do jogo em rede",
+        description: "Implementação de funcionalidades básicas de multiplayer"
+      },
+      {
+        title: "Mockup - 4/11/25 -> 18/11/25",
+        subtitle: "Design inicial da interface do usuário",
+        description: "Criação de wireframes e protótipos visuais"
+      },
+      {
+        title: "Visão por computador - 4/11/25 -> 25/11/25",
+        subtitle: "Implementação de reconhecimento de cartas",
+        description: "Desenvolvimento de modelos para identificar cartas através da câmera"
+      },
+      {
+        title: "Interface gráfica - 18/11/25 -> 2/12/25",
+        subtitle: "Desenvolvimento da UI/UX",
+        description: "Implementação de elementos visuais e interação do usuário"
+      },
+      {
+        title: "Algoritmia - 25/11/25 -> 9/12/25",
+        subtitle: "Desenvolvimento de algoritmos centrais",
+        description: "Criação de lógicas de jogo e IA"
+      },
+      {
+        title: "Testes - 18/11/25 -> 16/12/25",
+        subtitle: "Avaliação da experiência do usuário",
+        description: "Coleta de feedback e melhorias na interface"
+      },
+      {
+        title: "Integração - 25/11/25 -> 16/12/25",
+        subtitle: "Combinação de componentes do sistema",
+        description: "Garantia de funcionamento conjunto dos módulos desenvolvidos"
       }
     ]
   },
   {
-    title: "Construction - Apr 2025 / Aug 2025",
+    title: "Transition - ...",
     cards: [
       {
-        title: "Things",
-        subtitle: "A lot of things",
-        description: "Development and implementation phase"
-      },
-      {
-        title: "Development Sprint 1",
-        subtitle: "Core functionality",
-        description: "Implement basic system features"
-      },
-      {
-        title: "Development Sprint 2",
-        subtitle: "Advanced features",
-        description: "Add complex system capabilities"
-      },
-      {
-        title: "Testing Phase",
-        subtitle: "Quality assurance",
-        description: "Comprehensive testing and bug fixes"
-      },
-      {
-        title: "Documentation",
-        subtitle: "User and technical docs",
-        description: "Create comprehensive documentation"
-      }
-    ]
-  },
-  {
-    title: "Transition - Sep 2025",
-    cards: [
-      {
-        title: "Things",
-        subtitle: "A lot of things",
-        description: "Final phase focusing on deployment and transition"
+        title: "Brevemente...",
+        subtitle: "",
+        description: ""
       }
     ]
   }
