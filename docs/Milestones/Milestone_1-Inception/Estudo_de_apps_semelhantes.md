@@ -24,7 +24,7 @@ Foi realizada uma pesquisa na Play Store por jogos da sueca. Entre as várias ap
 Autor: Cátia Lopes - 119087  
 
 ## 4. Discussão  
-Principais limitações identificadas:  
+Principais limitações identificadas: 
 • Jogabilidade apenas contra bots  
 • Interfaces pouco atrativas e interativas  
 • Ausência de níveis de dificuldade para bots  
