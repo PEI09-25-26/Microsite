@@ -1,0 +1,27 @@
+{
+  "id": "Milestones/Milestone 2 - Elaboration/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/Milestones/Milestone 2 - Elaboration/manage-docs-versions.md",
+  "sourceDirName": "Milestones/Milestone 2 - Elaboration",
+  "slug": "/Milestones/Milestone 2 - Elaboration/manage-docs-versions",
+  "permalink": "/docs/Milestones/Milestone 2 - Elaboration/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Milestones/Milestone 2 - Elaboration/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "Milestones_Sidebar",
+  "previous": {
+    "title": "Milestone 2 - Elaboration",
+    "permalink": "/docs/category/milestone-2---elaboration-1"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/Milestones/Milestone 2 - Elaboration/translate-your-site"
+  }
+}

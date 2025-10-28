@@ -1,0 +1,30 @@
+{
+  "id": "Milestones/Milestone_3-Construction/PlaceHolder",
+  "title": "PlaceHolder",
+  "description": "",
+  "source": "@site/docs/Milestones/Milestone_3-Construction/index.md",
+  "sourceDirName": "Milestones/Milestone_3-Construction",
+  "slug": "/Milestones/Milestone_3-Construction/",
+  "permalink": "/Microsite/docs/Milestones/Milestone_3-Construction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/PEI09-25-26/Microsite/docs/Milestones/Milestone_3-Construction/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "PlaceHolder",
+    "title": "PlaceHolder",
+    "sidebar_label": "PlaceHolder",
+    "sidebar_position": 1
+  },
+  "sidebar": "Milestones_Sidebar",
+  "previous": {
+    "title": "Milestone 3 - Construction",
+    "permalink": "/Microsite/docs/category/milestone-3---construction"
+  },
+  "next": {
+    "title": "Milestone 4 - Transition",
+    "permalink": "/Microsite/docs/category/milestone-4---transition"
+  }
+}

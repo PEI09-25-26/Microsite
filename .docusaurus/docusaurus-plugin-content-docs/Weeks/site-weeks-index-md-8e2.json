@@ -1,0 +1,21 @@
+{
+  "id": "Weeks",
+  "title": "Weeks",
+  "description": "Welcome to the weeks resume!",
+  "source": "@site/Weeks/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/Weeks/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "Weeks",
+    "title": "Weeks",
+    "sidebar_label": "Weeks",
+    "sidebar_position": 1
+  },
+  "sidebar": "Milestones_Sidebar"
+}

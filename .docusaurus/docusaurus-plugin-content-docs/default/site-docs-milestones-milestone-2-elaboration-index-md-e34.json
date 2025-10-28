@@ -1,0 +1,30 @@
+{
+  "id": "Milestones/Milestone_2-Elaboration/PlaceHolder",
+  "title": "PlaceHolder",
+  "description": "",
+  "source": "@site/docs/Milestones/Milestone_2-Elaboration/index.md",
+  "sourceDirName": "Milestones/Milestone_2-Elaboration",
+  "slug": "/Milestones/Milestone_2-Elaboration/",
+  "permalink": "/Microsite/docs/Milestones/Milestone_2-Elaboration/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/PEI09-25-26/Microsite/docs/Milestones/Milestone_2-Elaboration/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "PlaceHolder",
+    "title": "PlaceHolder",
+    "sidebar_label": "PlaceHolder",
+    "sidebar_position": 1
+  },
+  "sidebar": "Milestones_Sidebar",
+  "previous": {
+    "title": "Milestone 2 - Elaboration",
+    "permalink": "/Microsite/docs/category/milestone-2---elaboration"
+  },
+  "next": {
+    "title": "Milestone 3 - Construction",
+    "permalink": "/Microsite/docs/category/milestone-3---construction"
+  }
+}

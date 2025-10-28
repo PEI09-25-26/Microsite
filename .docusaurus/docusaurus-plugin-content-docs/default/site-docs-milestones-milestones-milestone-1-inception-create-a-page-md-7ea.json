@@ -1,0 +1,27 @@
+{
+  "id": "Milestones/Milestones/Milestone 1 - Inception/create-a-page",
+  "title": "Estudo de Aplicações Semelhantes",
+  "description": "PEI - Jogo da Sueca - Grupo P9",
+  "source": "@site/docs/Milestones/Milestones/Milestone 1 - Inception/create-a-page.md",
+  "sourceDirName": "Milestones/Milestones/Milestone 1 - Inception",
+  "slug": "/Milestones/Milestones/Milestone 1 - Inception/create-a-page",
+  "permalink": "/sueca/docs/Milestones/Milestones/Milestone 1 - Inception/create-a-page",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Milestones/Milestones/Milestone 1 - Inception/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "Milestones_Sidebar",
+  "previous": {
+    "title": "Milestone 1 - Inception",
+    "permalink": "/sueca/docs/category/milestone-1---inception"
+  },
+  "next": {
+    "title": "Milestone 2 - Elaboration",
+    "permalink": "/sueca/docs/category/milestone-2---elaboration"
+  }
+}

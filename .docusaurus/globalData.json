@@ -1,0 +1,89 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/Microsite/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/Microsite/docs",
+          "mainDocId": "Milestones/index",
+          "docs": [
+            {
+              "id": "Milestones/index",
+              "path": "/Microsite/docs/Milestones/",
+              "sidebar": "Milestones_Sidebar"
+            },
+            {
+              "id": "Milestones/Milestone_1-Inception/Estudo_de_apps_semelhantes",
+              "path": "/Microsite/docs/Milestones/Milestone_1-Inception/Estudo_de_apps_semelhantes",
+              "sidebar": "Milestones_Sidebar"
+            },
+            {
+              "id": "Milestones/Milestone_1-Inception/Estudo_frameworks_frontend",
+              "path": "/Microsite/docs/Milestones/Milestone_1-Inception/Estudo_frameworks_frontend",
+              "sidebar": "Milestones_Sidebar"
+            },
+            {
+              "id": "Milestones/Milestone_2-Elaboration/PlaceHolder",
+              "path": "/Microsite/docs/Milestones/Milestone_2-Elaboration/",
+              "sidebar": "Milestones_Sidebar"
+            },
+            {
+              "id": "Milestones/Milestone_3-Construction/PlaceHolder",
+              "path": "/Microsite/docs/Milestones/Milestone_3-Construction/",
+              "sidebar": "Milestones_Sidebar"
+            },
+            {
+              "id": "Milestones/Milestone_4-Transition/deploy-your-site",
+              "path": "/Microsite/docs/Milestones/Milestone_4-Transition/deploy-your-site",
+              "sidebar": "Milestones_Sidebar"
+            },
+            {
+              "id": "Weeks/Weeks",
+              "path": "/Microsite/docs/Weeks/",
+              "sidebar": "Weeks_Sidebar"
+            },
+            {
+              "id": "/category/milestone-1---inception",
+              "path": "/Microsite/docs/category/milestone-1---inception",
+              "sidebar": "Milestones_Sidebar"
+            },
+            {
+              "id": "/category/milestone-2---elaboration",
+              "path": "/Microsite/docs/category/milestone-2---elaboration",
+              "sidebar": "Milestones_Sidebar"
+            },
+            {
+              "id": "/category/milestone-3---construction",
+              "path": "/Microsite/docs/category/milestone-3---construction",
+              "sidebar": "Milestones_Sidebar"
+            },
+            {
+              "id": "/category/milestone-4---transition",
+              "path": "/Microsite/docs/category/milestone-4---transition",
+              "sidebar": "Milestones_Sidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "Milestones_Sidebar": {
+              "link": {
+                "path": "/Microsite/docs/Milestones/",
+                "label": "Milestones/index"
+              }
+            },
+            "Weeks_Sidebar": {
+              "link": {
+                "path": "/Microsite/docs/Weeks/",
+                "label": "Weeks"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

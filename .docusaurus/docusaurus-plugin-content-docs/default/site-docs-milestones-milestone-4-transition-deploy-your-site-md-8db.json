@@ -1,0 +1,23 @@
+{
+  "id": "Milestones/Milestone_4-Transition/deploy-your-site",
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/Milestones/Milestone_4-Transition/deploy-your-site.md",
+  "sourceDirName": "Milestones/Milestone_4-Transition",
+  "slug": "/Milestones/Milestone_4-Transition/deploy-your-site",
+  "permalink": "/Microsite/docs/Milestones/Milestone_4-Transition/deploy-your-site",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/PEI09-25-26/Microsite/docs/Milestones/Milestone_4-Transition/deploy-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "Milestones_Sidebar",
+  "previous": {
+    "title": "Milestone 4 - Transition",
+    "permalink": "/Microsite/docs/category/milestone-4---transition"
+  }
+}

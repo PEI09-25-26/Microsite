@@ -1,0 +1,30 @@
+{
+  "id": "Milestones/Milestones-Index/Milestone 3 - construction/PlaceHolder",
+  "title": "PlaceHolder",
+  "description": "",
+  "source": "@site/docs/Milestones/Milestones-Index/Milestone 3 - construction/index.md",
+  "sourceDirName": "Milestones/Milestones-Index/Milestone 3 - construction",
+  "slug": "/Milestones/Milestones-Index/Milestone 3 - construction/",
+  "permalink": "/sueca/docs/Milestones/Milestones-Index/Milestone 3 - construction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Milestones/Milestones-Index/Milestone 3 - construction/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "PlaceHolder",
+    "title": "PlaceHolder",
+    "sidebar_label": "PlaceHolder",
+    "sidebar_position": 1
+  },
+  "sidebar": "Milestones_Sidebar",
+  "previous": {
+    "title": "Milestone 3 - Construction",
+    "permalink": "/sueca/docs/category/milestone-3---construction"
+  },
+  "next": {
+    "title": "Milestone 4 - Transition",
+    "permalink": "/sueca/docs/category/milestone-4---transition"
+  }
+}

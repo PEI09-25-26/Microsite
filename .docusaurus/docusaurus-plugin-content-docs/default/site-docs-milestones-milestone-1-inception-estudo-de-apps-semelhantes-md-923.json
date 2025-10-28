@@ -1,0 +1,27 @@
+{
+  "id": "Milestones/Milestone_1-Inception/Estudo_de_apps_semelhantes",
+  "title": "Estudo de Aplicações Semelhantes",
+  "description": "PEI - Jogo da Sueca - Grupo P9",
+  "source": "@site/docs/Milestones/Milestone_1-Inception/Estudo_de_apps_semelhantes.md",
+  "sourceDirName": "Milestones/Milestone_1-Inception",
+  "slug": "/Milestones/Milestone_1-Inception/Estudo_de_apps_semelhantes",
+  "permalink": "/Microsite/docs/Milestones/Milestone_1-Inception/Estudo_de_apps_semelhantes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/PEI09-25-26/Microsite/docs/Milestones/Milestone_1-Inception/Estudo_de_apps_semelhantes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "Milestones_Sidebar",
+  "previous": {
+    "title": "Milestone 1 - Inception",
+    "permalink": "/Microsite/docs/category/milestone-1---inception"
+  },
+  "next": {
+    "title": "Estudo de Frameworks para Aplicações Mobile",
+    "permalink": "/Microsite/docs/Milestones/Milestone_1-Inception/Estudo_frameworks_frontend"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Milestones/tutorial-basics/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Milestones/tutorial-basics/congratulations.md",
+  "sourceDirName": "Milestones/tutorial-basics",
+  "slug": "/Milestones/tutorial-basics/congratulations",
+  "permalink": "/docs/Milestones/tutorial-basics/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Milestones/tutorial-basics/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "Milestones_Sidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/Milestones/tutorial-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}
