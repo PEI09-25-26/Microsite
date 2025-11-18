@@ -2,46 +2,64 @@
 sidebar_position: 2
 ---
 
-# Estudo de Frameworks para Aplicações Mobile  
-_PEI - Jogo da Sueca - Grupo P9_  
+# Estudo de Frameworks para Aplicações Mobile
 
-## 1. Introdução  
-Este documento tem como objetivo analisar diversas frameworks compatíveis com mobile applications, de forma a compreender quais são os aspetos positivos e negativos de cada uma, para identificar qual é a mais adequada para o desenvolvimento do front-end da nossa aplicação do projeto de PEI.  
+## Introdução
 
-## 2. Metodologia  
-Foi realizada uma pesquisa aprofundada no Google com o objetivo de analisar e comparar as principais frameworks de desenvolvimento front-end disponíveis.  
+Este documento tem como objetivo analisar diversas frameworks compatíveis com *mobile applications*, de forma a compreender os aspetos positivos e negativos de cada uma, para identificar qual é a framework mais adequada para o desenvolvimento do front-end da nossa aplicação referente ao projeto de PEI.
 
-## 3. Resultados  
-Foram selecionadas três frameworks mais populares e adequadas:
+---
 
-• **React**: Biblioteca JavaScript criada pelo Facebook em 2013, destacada pela eficiência na criação de UIs reativas e interativas.  
-• **Angular**: Framework desenvolvida pelo Google em 2010, adequada para aplicações web e mobile complexas.  
-• **Vue.js**: Framework de 2014, criada por Evan You, crescente em popularidade pela simplicidade e integração fácil com projetos existentes.  
+## Metodologia
 
-Nota: React é tecnicamente uma biblioteca, mas com recursos adicionais (p. ex. React Router e Redux) pode funcionar como um framework completo.  
+Para a realização deste estudo, foi efetuada uma pesquisa aprofundada no Google, com o objetivo de analisar e comparar as principais frameworks de desenvolvimento front-end disponíveis.
 
-### 3.1 Bibliotecas React  
-• **React Router**: Permite navegação entre diferentes ecrãs sem recarregar a página.  
-• **React Native Paper**: Biblioteca com componentes modernos e reutilizáveis para React Native.  
+---
 
-### Comparação das Frameworks
+## Resultados
+
+Através da pesquisa, foram identificadas três frameworks mais desenvolvidas e adequadas para o desenvolvimento do front-end do nosso projeto:
+
+- *React*: Biblioteca JavaScript desenvolvida pelo Facebook para a criação de interfaces de usuário. Desde 2013, ganhou popularidade pela sua eficiência no desenvolvimento de UIs reativas e interativas.  
+- *Angular*: Framework desenvolvida pelo Google, lançada em 2010, adequada para a criação de aplicações web e mobile complexas.  
+- *Vue.js*: Framework criada por Evan You, lançada em 2014, conhecida pela simplicidade e fácil integração em projetos existentes.
+
+> Nota: React é tecnicamente uma biblioteca, mas pode funcionar como um framework com o uso de bibliotecas adicionais (como React Router e Redux), oferecendo uma estrutura completa para construir a aplicação.
+
+---
+
+### Bibliotecas React
+
+- *React Router*: Permite gerir a navegação entre diferentes páginas dentro de uma aplicação React sem recarregar a página. Sem ele, uma aplicação React ficaria limitada a uma única página.  
+- *React Native Paper*: Biblioteca de componentes para React Native que oferece elementos prontos a usar, como botões, cartões, barras de navegação e menus, permitindo criar interfaces modernas e consistentes com menos código repetitivo.
+
+---
+
+### Comparação de Frameworks
 
 | Framework | Vantagens | Desvantagens | Tecnologias Base |
-|----------|-----------|--------------|-----------------|
-| **React** | Comunidade ativa e extensa; Flexibilidade na integração com outras bibliotecas; Reutilização de componentes | Necessidade de bibliotecas externas adicionais para funcionalidades mais avançadas | JSX (HTML + JavaScript) + CSS |
-| **Angular** | Estrutura organizada; Bom para projetos grandes | Linguagem mais complexa para iniciantes | HTML + CSS/SCSS + TypeScript |
-| **Vue.js** | Fácil de aprender; Bom desempenho; Sintaxe simples | Menor número de recursos e comunidade mais pequena | HTML + CSS + JavaScript/TypeScript |
+|-----------|-----------|--------------|----------------|
+| *React* | - Comunidade ativa e grande número de recursos. <br/> - Flexibilidade na integração com bibliotecas externas. <br/> - Fácil reutilização de componentes. | - Necessidade de bibliotecas externas para funcionalidades avançadas | JSX (mistura de HTML com JavaScript) + CSS |
+| *Angular* | - Estrutura consistente e organizada. <br/> - Adequado para projetos grandes | - Linguagem complexa para iniciantes | HTML + CSS/SCSS + TypeScript |
+| *Vue.js* | - Fácil de aprender <br/> - Bom desempenho <br/> - Sintaxe simples | - Comunidade menor e menos recursos online | HTML, CSS, JavaScript (ou TypeScript) |
 
-Decisão final: A melhor opção para o projeto será **React** com o apoio de **React Router** e **React Native Paper**.  
+---
 
-### 3.2 Próximos Passos  
-O próximo passo é criar um protótipo simples e não funcional para ilustrar o design e estrutura do UI. A ferramenta escolhida será o **Figma**.  
+## Conclusão
 
-## 4. Conclusão  
-O estudo permitiu identificar frameworks adequadas para o desenvolvimento do front-end de mobile applications. A opção selecionada foi **React**, complementado com bibliotecas externas para assegurar uma solução completa e eficiente.  
+Todas as frameworks apresentam pontos fortes e fracos. Após análise detalhada e discussão com a equipa, a melhor opção para o nosso projeto é React, com as bibliotecas adicionais React Router e React Native Paper.
 
-## 4.1 Referências  
-• Lemaire. “Frameworks Front-End: uma comparação entre Angular, React”. LinkedIn. Consultado em 6/10/2025.  
-• BrowserStack. “How to Build Cross-Platform Mobile Apps”, 19 novembro 2024. Consultado em 6/10/2025.  
+---
 
-Autor: Cátia Lopes - 119087
+## Próximos Passos
+
+O próximo passo no desenvolvimento do front-end é criar um *protótipo simples, não funcional*, que ilustre o design e a estrutura da UI da aplicação.
+
+O protótipo será desenvolvido usando a ferramenta *Figma*.
+
+---
+
+## Referências
+
+- Lemaire, “Frameworks Front-End: uma comparação entre Angular, React”, LinkedIn. Disponível em: [pt.linkedin.com/pulse/frameworks-front-end-uma-comparaçã-o-entre-angular-react-lemaire-n6rbf](https://pt.linkedin.com/pulse/frameworks-front-end-uma-compara%C3%A7%C3%A3-o-entre-angular-react-lemaire-n6rbf). Consultado em 6/10/2025.  
+- BrowserStack. How to Build Cross-Platform Mobile Apps. 19 novembro 2024. Disponível em: [browserstack.com/guide/build-cross-platform-mobile-apps](https://www.browserstack.com/guide/build-cross-platform-mobile-apps). Consultado em 6/10/2025.

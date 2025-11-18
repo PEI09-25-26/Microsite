@@ -156,7 +156,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/PEI09-25-26',
             },
           ],
         },

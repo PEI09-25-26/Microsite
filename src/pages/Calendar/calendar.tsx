@@ -6,20 +6,21 @@ const timelineData = [
     title: "Inception - 16/9/25 -> 14/10/25",
     cards: [
       {
-        title: "Escolha do projeto - 16/9/25 -> 23/9/25",
+        title: "Análise da proposta de projeto - 16/9/25 -> 23/9/25",
         subtitle: "",
         description: ""
       },
       {
         title: "Primeiros passos - 23/9/25 -> 7/10/25",
         subtitle: "Identificação de problemas e objetivos",
-        description: " Brainstorming de ideias iniciais e definição de equipas"
+        description: "Brainstorming de ideias iniciais e definição de equipas"
       },
       {
         title: "Análise de competidores - 30/9/25 -> 14/10/25",
         subtitle: "Pesquisa de mercado",
         description: "Avaliação de soluções existentes e identificação de lacunas"
       },
+
     ]
   },
   {
