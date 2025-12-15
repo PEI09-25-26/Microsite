@@ -8,4 +8,4 @@ sidebar_position: 1
 # Weeks
 
 Welcome to the weeks resume!  
-Here is the important information about each week.
+Here is the important information discussed in the weakly meetings.
