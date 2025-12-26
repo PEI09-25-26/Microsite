@@ -99,7 +99,7 @@ const config: Config = {
           position: 'left'
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/PEI09-25-26',
           label: 'GitHub',
           position: 'right',
         },
