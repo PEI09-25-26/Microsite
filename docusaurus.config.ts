@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Suecada',
-  tagline: 'We love Sueca',
+  title: 'Sueca',
+  tagline: 'Sueca Application with Virtual Player',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -75,10 +75,11 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Suecada',
+      title: 'Sueca',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Sueca logo',
+        src: 'img/Sueca.png',
+        srcDark: 'img/Sueca.png',
       },
       items: [
         {
@@ -161,7 +162,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © 2025 Suecada, Universidade de Aveiro LEI.`,
+      copyright: `Copyright © 2025 Sueca Application with Virtual Player, Universidade de Aveiro LEI.`,
     },
     prism: {
       theme: prismThemes.github,

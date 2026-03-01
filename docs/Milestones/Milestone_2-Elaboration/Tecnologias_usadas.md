@@ -52,4 +52,4 @@ A utilização de Kotlin assegura um *desenvolvimento eficiente* e uma aplicaç�
 ---
 
 ## Conclusão
-A combinação destas tecnologias — *Python, **YOLO* e *OpenCV* no back-end, *Figma* para mockup e planeamento do design, e *Kotlin* no front-end — proporciona um *equilíbrio entre eficiência, escalabilidade e uma experiência de utilizador moderna e intuitiva*.
+A combinação destas tecnologias - *Python, **YOLO* e *OpenCV* no back-end, *Figma* para mockup e planeamento do design, e *Kotlin* no front-end - proporciona um *equilíbrio entre eficiência, escalabilidade e uma experiência de utilizador moderna e intuitiva*.

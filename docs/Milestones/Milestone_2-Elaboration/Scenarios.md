@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-## Scenario 1 — Deolinda Domingues (Tournament Organizer)
+## Scenario 1 - Deolinda Domingues (Tournament Organizer)
 
 Goal: Organizar e acompanhar um torneio de Sueca no lar onde trabalha.
 
@@ -30,7 +30,7 @@ Outcome:  O torneio decorre sem falhas, os jogadores elogiam a organização e D
 
 ---
 
-## Scenario 2 — Jerónimo Jesus (Remote Player)
+## Scenario 2 - Jerónimo Jesus (Remote Player)
 
 Goal: Jogar Sueca remotamente com os amigos mantendo a sensação do jogo físico.
 
@@ -55,11 +55,11 @@ Alternative Flow:
 	•	Jerónimo pode optar por adicionar amigos à lista para futuras partidas rápidas.  
 
 Outcome:
-A experiência é fluida e próxima de um jogo presencial — Jerónimo sente que voltou a jogar com os amigos “à mesa”.
+A experiência é fluida e próxima de um jogo presencial - Jerónimo sente que voltou a jogar com os amigos “à mesa”.
 
 ---
 
-## Scenario 3 — Maria Marques (Presencial Player)
+## Scenario 3 - Maria Marques (Presencial Player)
 
 Goal: Jogar Sueca com amigos presencialmente mesmo sem todos os jogadores disponíveis.
 
@@ -86,11 +86,11 @@ Outcome: Maria e as amigas conseguem jogar e divertir-se mesmo sem grupo complet
 
 ---
 
-## Scenario 4 — Jerónimo (Árbitro Contra Amigo Aldrabão)
+## Scenario 4 - Jerónimo (Árbitro Contra Amigo Aldrabão)
 
 Goal: Garantir que o jogo físico com amigos decorre sem batotas.
 
-Context: O Jerónimo vai visitar os antigos colegas, mas há um amigo conhecido por aldrabar — esconder cartas, jogar fora de tempo ou trocar cartas na manga.
+Context: O Jerónimo vai visitar os antigos colegas, mas há um amigo conhecido por aldrabar - esconder cartas, jogar fora de tempo ou trocar cartas na manga.
 
 Actors: Jerónimo, Amigos (incluindo o aldrabão)
 

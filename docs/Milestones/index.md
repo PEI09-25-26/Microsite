@@ -6,6 +6,8 @@ sidebar_position: 1
 
 Choose a milestone to explore:
 
+<p style={{ textAlign: 'center', color: 'var(--ifm-font-color-base)', maxWidth: '760px', margin: '0.5rem auto 1.5rem' }}>Explore the development milestones for the Sueca prototype. Click any card to open the milestone details and deliverables.</p>
+
 <div class="cards-grid">
   <a class="card" href="../category/Milestone-1---Inception">
     <div class="card__content">
@@ -19,9 +21,9 @@ Choose a milestone to explore:
     </div>
   </a>
 
-  <a class="card" href="../category/Milestone-3---Construction">
+  <a class="card" href="../category/milestone-3---prototype-mvp">
     <div class="card__content">
-      <h3>Milestone 3 - Construction</h3>
+      <h3>Milestone 3 - Prototype (MVP)</h3>
     </div>
   </a>
 
@@ -52,11 +54,8 @@ Choose a milestone to explore:
 }
 
 .card:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  transform: translateY(-4px);
-  text-decoration: none;
-  color: inherit;
+  box-shadow: 0 18px 40px rgba(16,24,40,0.10);
+  transform: translateY(-6px) scale(1.01);
 }
 
 .card__content h3 {
