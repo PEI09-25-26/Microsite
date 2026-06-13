@@ -49,6 +49,18 @@ function HomepageHeader() {
 
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
+
+  // Hoist all useBaseUrl calls to satisfy React Rules of Hooks
+  const tired1 = useBaseUrl('/img/problems/tired1.png');
+  const tired2 = useBaseUrl('/img/problems/tired2.png');
+  const tired3 = useBaseUrl('/img/problems/tired3.png');
+  const imgLucas = useBaseUrl('/img/developers/lucas.png');
+  const imgGoncalo = useBaseUrl('/img/developers/goncalo.png');
+  const imgTiago = useBaseUrl('/img/developers/tiago.png');
+  const imgCatia = useBaseUrl('/img/developers/catia.png');
+  const imgPedro = useBaseUrl('/img/developers/pedro.png');
+  const imgDaniel = useBaseUrl('/img/developers/daniel.png');
+
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
@@ -72,7 +84,7 @@ export default function Home(): ReactNode {
             <div className="tired-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', alignItems: 'start' }}>
               <div className="card tired-card">
                 <div style={{ width: '100%', height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--ifm-card-background-color)', borderRadius: 8, overflow: 'hidden' }}>
-                  <img src={useBaseUrl('/img/problems/tired1.png')} alt="Not enough players" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.15)' }} />
+                  <img src={tired1} alt="Not enough players" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.15)' }} />
                 </div>
                 <h3 style={{ marginTop: 12 }}>Tired of not having enough players to play Sueca?</h3>
                 <p style={{ marginTop: 6, color: 'var(--ifm-font-color-base)', opacity: 0.9 }}>Find players, schedule games and organise meetups directly from the app.</p>
@@ -80,7 +92,7 @@ export default function Home(): ReactNode {
 
               <div className="card tired-card">
                 <div style={{ width: '100%', height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--ifm-card-background-color)', borderRadius: 8, overflow: 'hidden' }}>
-                  <img src={useBaseUrl('/img/problems/tired2.png')} alt="Difficulty keeping score" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.15)' }} />
+                  <img src={tired2} alt="Difficulty keeping score" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.15)' }} />
                 </div>
                 <h3 style={{ marginTop: 12 }}>Tired of managing the game and keeping track of points?</h3>
                 <p style={{ marginTop: 6, color: 'var(--ifm-font-color-base)', opacity: 0.9 }}>Automatic scorekeeping and in-game assistance mean no more lost rounds or disputes.</p>
@@ -88,7 +100,7 @@ export default function Home(): ReactNode {
 
               <div className="card tired-card">
                 <div style={{ width: '100%', height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--ifm-card-background-color)', borderRadius: 8, overflow: 'hidden' }}>
-                  <img src={useBaseUrl('/img/problems/tired3.png')} alt="Cheating or mistakes" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.15)' }} />
+                  <img src={tired3} alt="Cheating or mistakes" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.15)' }} />
                 </div>
                 <h3 style={{ marginTop: 12 }}>Tired of players making mistakes or cheating?</h3>
                 <p style={{ marginTop: 6, color: 'var(--ifm-font-color-base)', opacity: 0.9 }}>An automatic referee enforces the rules of Sueca, preventing disputes and guaranteeing a fair match.</p>
@@ -163,42 +175,42 @@ export default function Home(): ReactNode {
           }}>
             {/* Lucas Ruivo */}
             <div className="card" style={{ textAlign: 'center' }}>
-              <img src={useBaseUrl('/img/developers/lucas.png')} alt="Lucas Ruivo" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
+              <img src={imgLucas} alt="Lucas Ruivo" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Lucas Ruivo</strong>
               <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Computer Vision and AI Integration Developer</div>
             </div>
 
             {/* Gonçalo Calvo */}
             <div className="card" style={{ textAlign: 'center' }}>
-              <img src={useBaseUrl('/img/developers/goncalo.png')} alt="Gonçalo Calvo" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
+              <img src={imgGoncalo} alt="Gonçalo Calvo" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Gonçalo Calvo</strong>
               <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Computer Vision and AI Integration Developer</div>
             </div>
 
             {/* Tiago Mendes */}
             <div className="card" style={{ textAlign: 'center' }}>
-              <img src={useBaseUrl('/img/developers/tiago.png')} alt="Tiago Mendes" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
+              <img src={imgTiago} alt="Tiago Mendes" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Tiago Mendes</strong>
               <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Backend Developer</div>
             </div>
 
             {/* Cátia Lopes */}
             <div className="card" style={{ textAlign: 'center' }}>
-              <img src={useBaseUrl('/img/developers/catia.png')} alt="Cátia Lopes" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
+              <img src={imgCatia} alt="Cátia Lopes" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Cátia Lopes</strong>
               <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Frontend Developer</div>
             </div>
 
             {/* Pedro Marques */}
             <div className="card" style={{ textAlign: 'center' }}>
-              <img src={useBaseUrl('/img/developers/pedro.png')} alt="Pedro Marques" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
+              <img src={imgPedro} alt="Pedro Marques" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Pedro Marques</strong>
               <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Frontend Developer</div>
             </div>
 
             {/* Daniel Martins */}
             <div className="card" style={{ textAlign: 'center' }}>
-              <img src={useBaseUrl('/img/developers/daniel.png')} alt="Daniel Martins" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
+              <img src={imgDaniel} alt="Daniel Martins" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Daniel Martins</strong>
               <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Backend Developer</div>
             </div>
