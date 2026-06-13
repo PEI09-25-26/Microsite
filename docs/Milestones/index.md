@@ -62,6 +62,12 @@ Choose a milestone to explore:
       <h3>Milestone 2.5 - Demo and Poster</h3>
     </div>
   </a>
+
+  <a class="card" href="../category/milestone-26---final-presentation">
+    <div class="card__content">
+      <h3>Milestone 2.6 - Final Presentation</h3>
+    </div>
+  </a>
 </div>
 
 <style>{`
