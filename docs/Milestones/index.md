@@ -56,6 +56,12 @@ Choose a milestone to explore:
       <h3>Milestone 2.4 - System Component Validation</h3>
     </div>
   </a>
+
+  <a class="card" href="../category/milestone-25---demo-and-poster">
+    <div class="card__content">
+      <h3>Milestone 2.5 - Demo and Poster</h3>
+    </div>
+  </a>
 </div>
 
 <style>{`
