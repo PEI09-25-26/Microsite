@@ -177,42 +177,42 @@ export default function Home(): ReactNode {
             <div className="card" style={{ textAlign: 'center' }}>
               <img src={imgLucas} alt="Lucas Ruivo" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Lucas Ruivo</strong>
-              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Computer Vision and AI Integration Developer</div>
+              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Computer Vision Engineer</div>
             </div>
 
             {/* Gonçalo Calvo */}
             <div className="card" style={{ textAlign: 'center' }}>
               <img src={imgGoncalo} alt="Gonçalo Calvo" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Gonçalo Calvo</strong>
-              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Computer Vision and AI Integration Developer</div>
+              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Backend Developer & Security Engineer</div>
             </div>
 
             {/* Tiago Mendes */}
             <div className="card" style={{ textAlign: 'center' }}>
               <img src={imgTiago} alt="Tiago Mendes" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Tiago Mendes</strong>
-              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Backend Developer</div>
+              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>AI Integration & Backend Developer</div>
             </div>
 
             {/* Cátia Lopes */}
             <div className="card" style={{ textAlign: 'center' }}>
               <img src={imgCatia} alt="Cátia Lopes" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Cátia Lopes</strong>
-              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Frontend Developer</div>
+              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Frontend Developer & Deliveries Coordinator</div>
             </div>
 
             {/* Pedro Marques */}
             <div className="card" style={{ textAlign: 'center' }}>
               <img src={imgPedro} alt="Pedro Marques" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Pedro Marques</strong>
-              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Frontend Developer</div>
+              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Frontend & Backend Developer</div>
             </div>
 
             {/* Daniel Martins */}
             <div className="card" style={{ textAlign: 'center' }}>
               <img src={imgDaniel} alt="Daniel Martins" style={{ width: 96, height: 96, borderRadius: 9999, objectFit: 'cover', margin: '0 auto 0.5rem' }} />
               <strong>Daniel Martins</strong>
-              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>Backend Developer</div>
+              <div style={{ fontSize: '0.95rem', opacity: 0.85 }}>AI Integration & Backend Developer</div>
             </div>
           </div>
         </div>
