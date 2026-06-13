@@ -3,98 +3,77 @@ import './Cronogram.css';
 
 const timelineData = [
   {
-    title: "Inception - 16/9/25 -> 14/10/25",
+    title: "Inception - 16/09/2025 -> 28/10/2025",
     cards: [
       {
-        title: "Análise da proposta de projeto - 16/9/25 -> 23/9/25",
-        subtitle: "",
-        description: ""
+        title: "Início e Equipas - 16/09/2025",
+        subtitle: "Apresentação e propostas",
+        description: "Apresentação do curso, das propostas de projeto e formação das equipas."
       },
       {
-        title: "Primeiros passos - 23/9/25 -> 7/10/25",
-        subtitle: "Identificação de problemas e objetivos",
-        description: "Brainstorming de ideias iniciais e definição de equipas"
-      },
-      {
-        title: "Análise de competidores - 30/9/25 -> 14/10/25",
-        subtitle: "Pesquisa de mercado",
-        description: "Avaliação de soluções existentes e identificação de lacunas"
-      },
-
-    ]
-  },
-  {
-    title: "Elaboration - 7/10/25 -> 11/11/25",
-    cards: [
-      {
-        title: "Teste de tecnologias - 7/10/25 -> 28/10/25",
-        subtitle: "Exploração de ferramentas e frameworks",
-        description: "Avaliação de tecnologias adequadas para o projeto"
-      },
-      {
-        title: "Escolha e validação de arquitetura - 28/10/25 -> 11/11/25",
-        subtitle: "Definição da estrutura do sistema",
-        description: "Decisão sobre padrões arquiteturais e validação com stakeholders"
-      },
-      {
-        title: "Definição de user cases, personas e requisitos - 28/10/25 -> 11/11/25",
-        subtitle: "Compreensão das necessidades do usuário",
-        description: "Criação de user stories e especificação de requisitos funcionais e não funcionais"
+        title: "Milestone 1 - 28/10/2025",
+        subtitle: "Objetivos e Calendário",
+        description: "Apresentação dos objetivos do ciclo de vida (lifecycle objectives) e do calendário do projeto."
       }
     ]
   },
   {
-    title: "Construction - 4/11/25 -> ...",
+    title: "Elaboration - 04/11/2025 -> 18/11/2025",
     cards: [
       {
-        title: "Desenvolvimento MVP - 4/11/25 -> ...",
-        subtitle: "Início da produção do produto mínimo viável",
-        description: "Foco nas funcionalidades essenciais"
+        title: "Check Point - 11/11/2025",
+        subtitle: "Acompanhamento",
+        description: "Ponto de situação onde cada equipa mostra brevemente o progresso do projeto."
       },
       {
-        title: "Protótipo distribuído - 4/11/25 -> 25/11/25",
-        subtitle: "Primeira versão funcional do jogo em rede",
-        description: "Implementação de funcionalidades básicas de multiplayer"
-      },
-      {
-        title: "Mockup - 4/11/25 -> 18/11/25",
-        subtitle: "Design inicial da interface do usuário",
-        description: "Criação de wireframes e protótipos visuais"
-      },
-      {
-        title: "Visão por computador - 4/11/25 -> 25/11/25",
-        subtitle: "Implementação de reconhecimento de cartas",
-        description: "Desenvolvimento de modelos para identificar cartas através da câmera"
-      },
-      {
-        title: "Interface gráfica - 18/11/25 -> 2/12/25",
-        subtitle: "Desenvolvimento da UI/UX",
-        description: "Implementação de elementos visuais e interação do usuário"
-      },
-      {
-        title: "Algoritmia - 25/11/25 -> 9/12/25",
-        subtitle: "Desenvolvimento de algoritmos centrais",
-        description: "Criação de lógicas de jogo e IA"
-      },
-      {
-        title: "Testes - 18/11/25 -> 16/12/25",
-        subtitle: "Avaliação da experiência do usuário",
-        description: "Coleta de feedback e melhorias na interface"
-      },
-      {
-        title: "Integração - 25/11/25 -> 16/12/25",
-        subtitle: "Combinação de componentes do sistema",
-        description: "Garantia de funcionamento conjunto dos módulos desenvolvidos"
+        title: "Milestone 2 - 18/11/2025",
+        subtitle: "Arquitetura do Ciclo de Vida",
+        description: "Apresentação da arquitetura; o milestone é atingido quando a arquitetura for validada."
       }
     ]
   },
   {
-    title: "Transition - ...",
+    title: "Construction - 25/11/2025 -> 19/05/2026",
     cards: [
       {
-        title: "Brevemente...",
-        subtitle: "",
-        description: ""
+        title: "Milestone 3 (MVP) - 16/12/2025",
+        subtitle: "Protótipo e Apresentação Intercalar",
+        description: "Apresentação mid-term do MVP com os orientadores e peer evaluation."
+      },
+      {
+        title: "M1 (Semestre 2) - 17/03/2026",
+        subtitle: "Usabilidade e Acessibilidade",
+        description: "Validação da usabilidade e acessibilidade digital do sistema."
+      },
+      {
+        title: "M2 (Semestre 2) - 24/03/2026 -> 31/03/2026",
+        subtitle: "Desenvolvimento do Protótipo",
+        description: "Implementação das funcionalidades fundamentais do protótipo."
+      },
+      {
+        title: "M3 (Semestre 2) - 05/05/2026",
+        subtitle: "Requisitos Legais e Riscos",
+        description: "Apresentação de requisitos legais, riscos técnicos e plano de negócios."
+      },
+      {
+        title: "Milestone 4 - 19/05/2026",
+        subtitle: "Validação do Sistema",
+        description: "Validação de componentes do sistema: performance, escalabilidade, testes e segurança."
+      }
+    ]
+  },
+  {
+    title: "Transition - 26/05/2026 -> 02/06/2026",
+    cards: [
+      {
+        title: "Milestone 5 - 26/05/2026",
+        subtitle: "Demo, Poster e Vídeo",
+        description: "Apresentação de demonstração, poster e vídeo promocional do projeto."
+      },
+      {
+        title: "Milestone 6 - 02/06/2026",
+        subtitle: "Apresentação Final",
+        description: "Apresentação final do projeto; todas as funcionalidades desenvolvidas!"
       }
     ]
   }
