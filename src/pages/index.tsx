@@ -27,7 +27,7 @@ function HomepageHeader() {
           Sueca is a traditional Portuguese card game for four players in teams of two.
           This project creates a mobile application that acts as a smart player - it
           uses computer vision to recognise cards and AI to decide plays, and provides
-          game management tools such as automated scorekeeping, tournament creation
+          game management tools such as an automatic referee, automated scorekeeping
           and game analytics.
         </p>
 
@@ -71,27 +71,27 @@ export default function Home(): ReactNode {
 
             <div className="tired-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', alignItems: 'start' }}>
               <div className="card tired-card">
-                <div style={{ width: '100%', height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--ifm-card-background-color)', borderRadius: 8, padding: 8 }}>
-                  <img src={useBaseUrl('/img/problems/tired1.png')} alt="Not enough players" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: 6 }} />
+                <div style={{ width: '100%', height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--ifm-card-background-color)', borderRadius: 8, overflow: 'hidden' }}>
+                  <img src={useBaseUrl('/img/problems/tired1.png')} alt="Not enough players" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.15)' }} />
                 </div>
                 <h3 style={{ marginTop: 12 }}>Tired of not having enough players to play Sueca?</h3>
                 <p style={{ marginTop: 6, color: 'var(--ifm-font-color-base)', opacity: 0.9 }}>Find players, schedule games and organise meetups directly from the app.</p>
               </div>
 
               <div className="card tired-card">
-                <div style={{ width: '100%', height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--ifm-card-background-color)', borderRadius: 8, padding: 8 }}>
-                  <img src={useBaseUrl('/img/problems/tired2.png')} alt="Difficulty keeping score" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: 6 }} />
+                <div style={{ width: '100%', height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--ifm-card-background-color)', borderRadius: 8, overflow: 'hidden' }}>
+                  <img src={useBaseUrl('/img/problems/tired2.png')} alt="Difficulty keeping score" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.15)' }} />
                 </div>
                 <h3 style={{ marginTop: 12 }}>Tired of managing the game and keeping track of points?</h3>
                 <p style={{ marginTop: 6, color: 'var(--ifm-font-color-base)', opacity: 0.9 }}>Automatic scorekeeping and in-game assistance mean no more lost rounds or disputes.</p>
               </div>
 
               <div className="card tired-card">
-                <div style={{ width: '100%', height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--ifm-card-background-color)', borderRadius: 8, padding: 8 }}>
-                  <img src={useBaseUrl('/img/problems/tired3.png')} alt="Organising tournaments" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: 6 }} />
+                <div style={{ width: '100%', height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--ifm-card-background-color)', borderRadius: 8, overflow: 'hidden' }}>
+                  <img src={useBaseUrl('/img/problems/tired3.png')} alt="Cheating or mistakes" style={{ width: '100%', height: '100%', objectFit: 'contain', transform: 'scale(1.15)' }} />
                 </div>
-                <h3 style={{ marginTop: 12 }}>Tired of the difficulty of organising Sueca tournaments?</h3>
-                <p style={{ marginTop: 6, color: 'var(--ifm-font-color-base)', opacity: 0.9 }}>Tournament tools, brackets and scheduling simplify running events for any group size.</p>
+                <h3 style={{ marginTop: 12 }}>Tired of players making mistakes or cheating?</h3>
+                <p style={{ marginTop: 6, color: 'var(--ifm-font-color-base)', opacity: 0.9 }}>An automatic referee enforces the rules of Sueca, preventing disputes and guaranteeing a fair match.</p>
               </div>
             </div>
 
@@ -113,7 +113,7 @@ export default function Home(): ReactNode {
             <h2 style={{ textAlign: 'center' }}>Key Features</h2>
             <p style={{ textAlign: 'center', maxWidth: 800, margin: '0.5rem auto 1.25rem', color: 'var(--ifm-font-color-base)' }}>
               The app is designed to make playing Sueca easier and more fun - whether you
-              lack a fourth player, want to automate scoring, or run tournaments.
+              lack a fourth player, want to automate scoring, or enforce fair play.
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem' }}>
@@ -133,8 +133,8 @@ export default function Home(): ReactNode {
 
               <div className="card">
                 <div className="card__body">
-                  <h3>Tournament Manager</h3>
-                  <p>Create and manage tournaments mixing real and virtual players, with brackets and scheduling support.</p>
+                  <h3>Automatic Referee</h3>
+                  <p>Real-time rule enforcement ensures no one cheats and points are attributed correctly without arguments.</p>
                 </div>
               </div>
 

@@ -26,8 +26,16 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(34, 139, 230, 0.06), rgba(58, 123, 213, 0.06));
+  background: linear-gradient(-45deg, rgba(59, 130, 246, 0.05), rgba(139, 92, 246, 0.08), rgba(16, 185, 129, 0.05));
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
   pointer-events: none;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .logo {
