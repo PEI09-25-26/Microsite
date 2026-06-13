@@ -8,6 +8,8 @@ Choose a milestone to explore:
 
 <p style={{ textAlign: 'center', color: 'var(--ifm-font-color-base)', maxWidth: '760px', margin: '0.5rem auto 1.5rem' }}>Explore the development milestones for the Sueca prototype. Click any card to open the milestone details and deliverables.</p>
 
+## 1st Semester
+
 <div class="cards-grid">
   <a class="card" href="../category/Milestone-1---Inception">
     <div class="card__content">
@@ -26,10 +28,20 @@ Choose a milestone to explore:
       <h3>Milestone 3 - Prototype (MVP)</h3>
     </div>
   </a>
+</div>
 
-  <a class="card" href="../category/Milestone-4---Transition">
+## 2nd Semester
+
+<div class="cards-grid">
+  <a class="card" href="../category/milestone-21---usabilidade-e-acessibilidade-digital">
     <div class="card__content">
-      <h3>Milestone 4 - Transition</h3>
+      <h3>Milestone 2.1 - Usabilidade e acessibilidade digital</h3>
+    </div>
+  </a>
+
+  <a class="card" href="../category/milestone-22---protótipo">
+    <div class="card__content">
+      <h3>Milestone 2.2 - Protótipo</h3>
     </div>
   </a>
 </div>
