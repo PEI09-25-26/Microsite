@@ -44,6 +44,18 @@ Choose a milestone to explore:
       <h3>Milestone 2.2 - Protótipo</h3>
     </div>
   </a>
+
+  <a class="card" href="../category/milestone-23---legal-risks-and-business-plan">
+    <div class="card__content">
+      <h3>Milestone 2.3 - Legal, Risks, and Business Plan</h3>
+    </div>
+  </a>
+
+  <a class="card" href="../category/milestone-24---system-component-validation">
+    <div class="card__content">
+      <h3>Milestone 2.4 - System Component Validation</h3>
+    </div>
+  </a>
 </div>
 
 <style>{`
